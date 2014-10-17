@@ -1,0 +1,5 @@
+#lang scheme
+; Remove first element
+(define (removeFirstElement x)
+  (list (cdr x)))
+      
